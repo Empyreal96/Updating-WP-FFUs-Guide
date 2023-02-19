@@ -21,13 +21,13 @@ This guide will let you update your stock WP 8.1 FFU to GDR2, it uses the "offic
 ## Creating the new image:
 
 
-1. Extract [WP8_Tools.7z](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/WP8_Tools.7z?raw=true) and [UpdateInput Generator](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/UpdateInputGen.7z?raw=true) to a folder of ypur choice. 
+1. Extract [WP8_Tools.7z](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/WP8_Tools.7z?raw=true) and [UpdateInput Generator](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/UpdateInputGen.7z?raw=true) to a folder of your choice. 
 *(you can place UpdateInput Gen in the same folder as WP8 Tools if you wish)*
 
 2. Open Command Prompt as Admin and navigate to UpdateInput Generator's folder, then run this command:
    - `UpdImageGen.exe -i "Path to filtered cabs" -o "Path to output folder"`
 
-*Keep note of where you put for the Output folder*
+*Keep note of where you saved the UpdateInput.xml file*
 
 3. in the WP8 Tools folder run the command:
    - `imageapp.exe "path to ffu" /UpdateInputXML:"Path to UpdateInput.xml"`
