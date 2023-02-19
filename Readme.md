@@ -6,12 +6,12 @@ This guide will let you update your stock W10M FFU to a higher OS build
 - Created FFUs are **unsigned** so an **Unlocked Bootloader** will be required to flash them
 - WP8 FFUs are **not* supported with updating to W10M. (Updating WP 8.1 FFUs to GDR2 will hopefully come soon)
 - You will need filtered cabs for your device already stored on your PC.
-- [WPInternals](), [Windows Phone Common Tools]() and [thor2]() are **required**.
+- [WPInternals](https://github.com/ReneLergner/WPinternals), [Windows Phone Common Tools](https://github.com/Empyreal96/Updating-W10M-FFUs-Guide/blob/main/WP_Tools.7z?raw=true) and [thor2/Windows Device Recovery Tool](https://support.microsoft.com/en-us/windows/windows-device-recovery-tool-faq-2b186f06-7178-ed11-4cb6-5ed437f0855b) are **required**.
 - To make an FFU on the latest build you may need to make several runs of this guide, first to update to 14393, then mount the new 14393 FFU and update that to 15254. You will only need to flash the 15254 FFU.
 
 ## Creating the new image:
 
-1. Extract [WP_Tools.7z](), open Command Prompt as Admin in extracted the folder.
+1. Extract [WP_Tools.7z](https://github.com/Empyreal96/Updating-W10M-FFUs-Guide/blob/main/WP_Tools.7z?raw=true), open Command Prompt as Admin in extracted the folder.
 2. Run following commands in order:
    - `wpimage mount "path to ffu"`
    (*take note of the PhysicalDrive it is mounted at, Mine was PhysicalDrive1*)
