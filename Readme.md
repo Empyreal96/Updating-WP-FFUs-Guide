@@ -22,8 +22,8 @@ This guide will let you update your stock W10M FFU to a higher OS build
 
 1. Plug phone into PC while it's booted
 2. Navigate to where 'thor2' is located (usually `C:\Program Files (x86)\Microsoft Care Suite\Windows Device Recovery Tool\`)
-3. Type: `thor2 -mode rnd -bootflashapp`
-4. Type: `thor2 -mode uefiflash -ffufile "path to output ffu"` (you can append with -erase_data if you wish but it won't have an effect in this guide)
+3. Type: `thor2 -mode rnd -bootflashapp` *(alternatively you can use WPInternals to do this)*
+4. Type: `thor2 -mode uefiflash -ffufile "path to output ffu"` *(you can append with -erase_data if you wish but it won't have an effect in this guide)*
 5. Type: `thor2 -mode rnd -reboot`
 *(You will reboot back into Flash Mode, this is expected)*
 6. Unlock Bootloader with WPInternals
