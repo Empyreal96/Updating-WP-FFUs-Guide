@@ -4,3 +4,5 @@ Below are two different guides on how to update FFU files to contain a newer bui
 
 - [Updating W10M based FFUs](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/W10M_FFUs.md)
 - [Updating WP8.1 based FFUs to GDR2](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/WP8.1_FFUs.md)
+
+This repo was made private while I figure out an issue with W10M FFUs, this has now been resolved and it's now public again!!
