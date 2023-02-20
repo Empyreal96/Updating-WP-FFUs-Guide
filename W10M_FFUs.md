@@ -26,8 +26,9 @@ This guide will let you update your stock W10M FFU to a higher OS build
 4. Type: `thor2 -mode uefiflash -ffufile "path to output ffu"` *(you can append with -erase_data if you wish but it won't have an effect in this guide)*
 5. Type: `thor2 -mode rnd -reboot`
 *(You will reboot back into Flash Mode, this is expected)*
-6. Unlock Bootloader with WPInternals
-*(First Boot will freeze on boot, wait until WPInternals tells you the unlock was successful. If you recieve the "Gears" screen when Unlocking, try relocking the bootloader or performing the hard reset anyway)*
+6. Relock Bootloader with WPInternals
+*(First Boot will freeze on boot, wait until WPInternals tells you the relock was successful.)*
 7. Hold the power button to reboot, and perform a reset
+8. After several reboots try to Unlock the bootloader (if you want your BL unlocled
 
 Your device should now boot to the updated build
