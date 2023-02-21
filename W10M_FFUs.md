@@ -29,7 +29,7 @@ This guide will let you update your stock W10M FFU to a higher OS build
 6. Relock Bootloader with WPInternals.
 *(First Boot will freeze on boot, wait until WPInternals tells you the relock was successful.)*
 7. Hold the power button to reboot, and perform a reset
-8. After several reboots try to Unlock the bootloader (if you want your BL unlocled
+8. After several reboots try to Unlock the bootloader (if you want your BL Unlocked)
 
 Your device should now boot to the updated build
 
