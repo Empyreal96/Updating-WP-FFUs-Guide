@@ -23,7 +23,7 @@ Storage Service: Created a new image in 0.1 seconds.
 ## What can be done
 Not much to put here yet
 
-- Install the Unsigned Developer Menu to the FFU if you plan to run `wpinternals.exe -EnableTestSigning` after flashing (Add a mount point to MainOS in Disk Management, e.g K:\)
+- Install the Unsigned Developer Menu to the FFU if you plan to run `wpinternals.exe -EnableTestSigning` after flashing (Add a mount point to MainOS in Disk Management, e.g K:\) (ISSUE: This causes blue ":(" screen when selecting Developer Menu)
 - Create UEFIChargingLogToDisplay.txt in `{MainOS}:\EFIESP\Windows\System32\Boot` to show UEFI Charging logs on-screen during boot (??)
 - Push [Tshell Update](https://www.youtube.com/watch?v=MuHGy4Yei7o) to the device with UpdateApp and create [startup.bsc]() in `{MainOS}:\Windows\System32` (??)
 
