@@ -47,7 +47,7 @@ This guide will let you update your stock WP 8.1 FFU to GDR2, it uses the "offic
 
 *(You will reboot back into Flash Mode, this is expected*
 
-6. Unlock Bootloader with WPInternals
+6. Relock Bootloader with WPInternals
 
 
 
