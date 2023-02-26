@@ -11,7 +11,7 @@ This guide will let you update your stock W10M FFU to a higher OS build
 
 ## Creating the new image:
 
-1. Extract [W10M_Tools.7z](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/W10M_Tools.7z?raw=true), open Command Prompt as Admin in extracted the folder.
+1. Extract [W10M_Tools.7z](https://github.com/Empyreal96/Updating-WP-FFUs-Guide/blob/main/W10M_Tools.7z?raw=true), open Command Prompt as Admin in extracted the folder to `Tools\bin\i386`.
 2. Run following commands in order:
    - `wpimage mount "path to ffu"`
    (*take note of the PhysicalDrive it is mounted at, Mine was PhysicalDrive1*)
